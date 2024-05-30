@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.xmuproject.fwc_album_copa_2022_app">
+    package="dev.murilotischer.fwc_album_copa_2022_app">
    <application
         android:label="fwc_album_copa_2022_app"
         android:name="${applicationName}"
