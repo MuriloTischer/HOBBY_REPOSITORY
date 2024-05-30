@@ -1,0 +1,61 @@
+name: app_filmes
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  firebase_remote_config: any
+  intl: ^0.18.1
+  google_sign_in: ^6.1.0
+  flutter_signin_button: ^2.0.0
+  flutter_rating_stars: ^1.0.3+4
+  cloud_firestore: ^4.7.1
+  firebase_core_platform_interface: ^4.5.2
+  transparent_image: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: FilmesAppIcons
+      fonts:
+        - asset: assets/fonts/FilmesAppIcons.ttf
+        
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/metropolis/Metropolis-Regular.otf
+        - asset: assets/fonts/metropolis/Metropolis-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/metropolis/Metropolis-Bold.otf
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true

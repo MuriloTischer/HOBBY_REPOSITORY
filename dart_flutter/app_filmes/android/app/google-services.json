@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "398583722523",
+    "project_id": "xmu-filmes",
+    "storage_bucket": "xmu-filmes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398583722523:android:b5c7ca3b83659f59307ebe",
+        "android_client_info": {
+          "package_name": "br.com.academiadoflutter.app_filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398583722523-m317b862rhj33q3691l71mbcetkho3e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.academiadoflutter.app_filmes",
+            "certificate_hash": "1e1da8702c6bc59473226b72b7784d61a0f43c09"
+          }
+        },
+        {
+          "client_id": "398583722523-0c5kjn31nl0ef3mcodnvv008ou1cv900.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZzSFHrpewtwkL98-K5ElRE_u36hEN4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398583722523-0c5kjn31nl0ef3mcodnvv008ou1cv900.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

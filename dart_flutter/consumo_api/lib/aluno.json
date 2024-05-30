@@ -1,0 +1,34 @@
+{
+    "nome": "Murilo Tischer",
+    "idade": 36,
+    "isAluno": true,
+    "nomeCursos": [
+        "Fluter",
+        "Java"
+    ],
+    "cursos": [
+        {
+            "id": 1,
+            "nome": "Fluter",
+            "isAluno": true
+        },
+        {
+            "id": 2,
+            "nome": "Java",
+            "isAluno": false
+        }
+    ],
+    "endereco": {
+        "rua": "Rua X",
+        "numero": 200,
+        "CEP": "0123456789",
+        "cidade": {
+            "id": 1,
+            "nome": "Leme"
+        },
+        "telefone": {
+            "ddd": 11,
+            "telefone": "989262626"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+[
+    {
+        "nome": "Murilo Tischer",
+        "idade": 36,
+        "nomeCursos": [
+            "Fluter",
+            "Java"
+        ]
+    },
+    {
+        "nome": "Maria Tischer",
+        "idade": 60,
+        "nomeCursos": [
+            "Fluter",
+            "Java"
+        ]
+    },
+    {
+        "nome": "Mauricio Tischer",
+        "idade": 66,
+        "nomeCursos": [
+            "Fluter",
+            "Java"
+        ]
+    }
+]
