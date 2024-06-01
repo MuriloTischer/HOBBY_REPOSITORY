@@ -11,8 +11,8 @@
 
 # Controllers (Controladores):
  - São classes responsáveis por receber e responder às requisições HTTP. Cada controller é responsável por manipular as requisições relacionadas a uma entidade específica. Os métodos do controller mapeiam para as operações CRUD e fazem chamadas aos métodos do repositório apropriado. Os controllers são anotados com @RestController e os métodos são anotados com @GetMapping, @PostMapping, @PutMapping e @DeleteMapping para mapear os endpoints HTTP corretamente.
- Exemplo de Uso: Por exemplo, se você acessar /clientes usando um método GET, o controlador de clientes responderá
+ - Exemplo de Uso: Por exemplo, se você acessar /clientes usando um método GET, o controlador de clientes responderá
  com uma lista de todos os clientes no banco de dados. Se você acessar /clientes usando um método POST com um JSON
  representando um novo cliente, o controlador de clientes irá salvar esse cliente no banco de dados.</p> </br>
- O projeto fornece uma estrutura básica para uma aplicação Spring Boot que permite a manipulação de dados de acordo
+ - O projeto fornece uma estrutura básica para uma aplicação Spring Boot que permite a manipulação de dados de acordo
  com o modelo ER fornecido.
