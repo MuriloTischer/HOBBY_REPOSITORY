@@ -2,19 +2,45 @@ package dev.murilotischer.pizzaria.controllers;
 
 import dev.murilotischer.pizzaria.controllers.services.PizzaService;
 import dev.murilotischer.pizzaria.model.entity.DTO.PizzaDTO;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
-@Controller
-@RequestMapping(name = "/pizzas") //indica/mapeia o caminho(endereço) que a pagina deve acessar
+import java.util.List;
+
+@RestController
+@RequestMapping("/pizzas") //indica/mapeia o caminho(endereço) que a pagina deve acessar
 @RequiredArgsConstructor
 public class PizzaController {
     private final PizzaService pizzaService;
+
     @PostMapping
-    public void cadastrar(@RequestBody PizzaDTO dto){
+    public void cadastrar(@RequestBody @Valid PizzaDTO dto) {
+
         pizzaService.criarPizza(dto);
+    }
+
+    @GetMapping
+    public List<PizzaDTO> buscarTodos() {
+
+        return pizzaService.buscarTodos();
+    }
+
+    @GetMapping("/{id}")
+    public PizzaDTO buscarPorID(@PathVariable @NotNull Long id) {
+
+        return pizzaService.buscarPorID(id);
+    }
+
+    @PutMapping("/{id}")
+    public PizzaDTO atualizar(@PathVariable @NotNull Long id, @RequestBody @Valid PizzaDTO dto) {
+        PizzaDTO pizzaAtualizada = pizzaService.atualizarPizza(id, dto);
+        return pizzaAtualizada;
+    }
+
+    @DeleteMapping("/{id}")
+    public void excluir(@PathVariable @NotNull Long id) {
+        pizzaService.excluir(id);
     }
 }

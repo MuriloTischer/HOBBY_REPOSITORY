@@ -4,13 +4,18 @@ import dev.murilotischer.pizzaria.model.enums.TipoSabor;
 import dev.murilotischer.pizzaria.model.enums.TipoTamanho;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
 public class PizzaDTO {
+    private Long id;
+    @NotBlank
     private String nome;
+    @Positive
     private double preco;
     private boolean disponivel;
     private TipoSabor tipoSabor;
