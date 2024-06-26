@@ -32,6 +32,7 @@ Por meio de tutoriais, exemplos de código e projetos práticos, o "Lab_Clinica"
 <h2>🤔 Como usar</h2>
 
    ```
+   FVM Utilizado ->  "3.19.1"
    É necessário ter o Flutter instalado. Para configurar o ambiente de desenvolvimento na sua máquina:
    https://flutter.dev/docs/get-started/install
 
