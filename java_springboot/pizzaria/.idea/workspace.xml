@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08105af9-9023-43c9-bccc-faf5f8154184" name="Changes" comment="README.md adicionado">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../murilotischer.github.io" beforeDir="false" afterPath="$PROJECT_DIR$/../../murilotischer.github.io" afterDir="false" />
-    </list>
+    <list default="true" id="08105af9-9023-43c9-bccc-faf5f8154184" name="Changes" comment="README.md adicionado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,8 +90,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -113,6 +110,7 @@
       <workItem from="1717367251164" duration="4872000" />
       <workItem from="1717375178429" duration="5000" />
       <workItem from="1717380332025" duration="57000" />
+      <workItem from="1718937163252" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Criaçao da entidade Pizza.java&#10;Criaçao do DTO PizzaDTO.java&#10;Criaçao dos enums TipoSabor.java e TipoTamanho.java&#10;Criaçao do Repositorio PizzaRepository.java&#10;Criacao do Service PizzaService.java&#10;Criaçao do Controller PizzaController.java&#10;&#10;Conectando a aplicacáo com o banco de dados MySQL application.yml">
       <option name="closed" value="true" />

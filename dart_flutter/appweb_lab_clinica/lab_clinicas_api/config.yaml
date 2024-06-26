@@ -1,0 +1,21 @@
+name: Json Rest Server
+port: 8080
+host: 0.0.0.0
+database: database.json
+#Indica se você quer que inicie um servidor de socket junto com o servidor rest (true/false)
+enableSocket: true 
+#Indica a porta de acesso do socket padrão (Websocket não utiliza essa porta):  8081
+socketPort: 8081
+broadcastProvider: socket #indica o tipo de broadcast que será utilizado (socket, websocket), indica a notificação que iremos receber(nesse caso via token)
+idType: uuid
+
+auth: # todas as urls que precisam de autenticação, e serão habilitados atraves de um token
+  jwtSecret: admin #senha do token 
+  jwtExpire: 3600  #duração do token jwt em milisegundos
+  urlSkip:
+    - /images/:
+        method: get #url que não precisa de autenticação, apenas para o get das imagens para não ficar demandando pra acessar
+    - /users:
+        method: post #url que não precisa de autenticação, apenas para o post de usuários
+    - /adm_users:
+        method: post #url que não precisa de autenticação, apenas para o post de usuários        
