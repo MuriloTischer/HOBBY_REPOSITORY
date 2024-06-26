@@ -1,17 +1,6 @@
 <h1 >Lab Clinica</h1>
 
 ---
-
-<h2>Tópicos 📋</h2>
-
-   <p>
-   - [📖 Sobre](#-sobre)
-   - [🛠️ Funcionalidades e Tecnologias Estudadas](#%EF%B8%8F-funcionalidades-e-tecnologias-estudadas)
-   - [🤔 Como usar](#-como-usar)
-
-
-   </p>
-
    <h2>📖 Sobre</h2>
 <p>
 O Projeto "Lab_Clinica" é um projeto voltado para estudos e prática de desenvolvimento unificando web, desktop e Android(mobile). Ele oferece uma plataforma onde é possivel explorar e aprimorar as habilidades na criação de aplicativos entre as plataformas. 
