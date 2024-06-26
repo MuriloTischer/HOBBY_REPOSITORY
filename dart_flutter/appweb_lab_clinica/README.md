@@ -25,7 +25,7 @@ Por meio de tutoriais, exemplos de código e projetos práticos, o "Lab_Clinica"
 - LAB_CLINICAS_CORE - <a href="lab_clinicas_core">O A estrutura base do Projeto</a><br/>
 - LAB_CLINICAS_SELF_SERVICE - <a href="lab_clinicas_self_service">Sistema de Auto Atendimento para a Clinica em Tablet</a><br/>
 - LAB_CLINICAS_ADM - <a href="lab_clinicas_adm">Sistema de Atendimento ao Paciente, em Desktop usado pelos Guiches</a><br/>
-- LAB_CLINICAS_PANEL - <a href="lab_clinicas_panel">Sistema de Visualização de Chamadas em TV</a><br/>   
+- LAB_CLINICAS_PAINEL - <a href="lab_clinicas_painel">Sistema de Visualização de Chamadas em TV</a><br/>   
 </p>
 
 
